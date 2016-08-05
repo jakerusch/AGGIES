@@ -1,0 +1,86 @@
+{
+    "author": "jacob.rusch@gmail.com",
+    "dependencies": {},
+    "keywords": [],
+    "name": "aggies",
+    "pebble": {
+        "capabilities": [
+            "location",
+            "health"
+        ],
+        "displayName": "AGGIES",
+        "enableMultiJS": true,
+        "messageKeys": {
+            "KEY_CITY": 0,
+            "KEY_TEMP": 7,
+            "KEY_TEMP1": 2,
+            "KEY_TEMP2": 4,
+            "KEY_TEMP3": 6,
+            "KEY_TIME1": 1,
+            "KEY_TIME2": 3,
+            "KEY_TIME3": 5
+        },
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/CLOCK_WHITE_ICON",
+                    "name": "CLOCK_WHITE_ICON",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/CLOCK_BLACK_ICON",
+                    "name": "CLOCK_BLACK_ICON",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/WEATHER_WHITE_ICON",
+                    "name": "WEATHER_WHITE_ICON",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/WEATHER_BLACK_ICON",
+                    "name": "WEATHER_BLACK_ICON",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/SHOE_BLACK_ICON",
+                    "name": "SHOE_BLACK_ICON",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/SHOE_WHITE_ICON",
+                    "name": "SHOE_WHITE_ICON",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/LOGO_WHITE",
+                    "name": "LOGO_WHITE",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/LOGO_BLACK",
+                    "name": "LOGO_BLACK",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite"
+        ],
+        "uuid": "78c2ada2-ba4c-4370-93e6-798c94bd43b6",
+        "watchapp": {
+            "watchface": false
+        }
+    },
+    "version": "1.0.0"
+}
